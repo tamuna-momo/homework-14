@@ -17,6 +17,10 @@ console.log('my address is',(personArray[0].address));
 
 // 4.
 
-
+ if ((personArray[0].age) < 19) {
+        console.log('i am a teenager');
+ } else {
+        console.log("i am an adult");
+} 
 
 
