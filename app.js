@@ -1,5 +1,4 @@
 // 1.
-
 const numberArray=[17,20,54,67,71];
 
 const sum=numberArray.reduce(function(a,b){
@@ -9,30 +8,15 @@ console.log(sum);
 
 // 2.
 
-const person = {
-    name:"natia",
-    age:29,
-    address:"mukhiani"
-  };
-const person2 = {
-    name: "milana",
-    age: 29,
-    address: "gldani"
-};
-const person3 = {
-    name: "sofo",
-    age: 29,
-    address: "nutsubidze"
-};
-  
-  
-console.log(person, person2,person3);
+const personArray = [{name: "natia", age: 29, address:"mukhiani"}, {name: "milana", age: 29, address:"gldani"}, {name: "tamuna", age: 30, address:'vazisubani'}];
 
 // 3.
+console.log('my name is', (personArray[0].name));
+console.log('my age is',(personArray[0].age));
+console.log('my address is',(personArray[0].address));
 
-console.log('my name is', (person.name));
-console.log('my age is',(person.age));
-console.log('my address is',(person.address));
+// 4.
+
 
 
 
